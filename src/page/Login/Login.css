@@ -1,0 +1,94 @@
+/* Style.css */
+
+
+.form-container {
+  width: 50%;
+  height: 70%;
+  padding: 50px;
+  background-color:rgba(0, 0, 0, 0.3);
+  border: 1px solid #bbb9b9;
+  border-radius: 10px;
+  margin: auto; /* 设置左右外边距为 auto，实现水平居中 */
+  text-align: center; /* 设置文本居中 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.options {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options a {
+  text-decoration: none;
+  color: #3587e4;
+  cursor: pointer;
+  font-size: 20px; /* 字体大小 */
+  font-weight: bold; /* 字体粗细 */
+  margin-right: 20px; /* 右侧外边距 */
+  &:hover {
+    color: #265799; /* 设置悬停时的背景颜色 */
+  }
+
+  &:focus {
+    outline: none; /* 移除默认的按钮轮廓效果 */
+    box-shadow: 0 0 5px rgba(51, 102, 204, 0.8); /* 设置获取焦点时的阴影效果 */
+  }
+}
+
+
+
+.input-field {
+  width: 50%;
+  padding: 10px; /* 设置输入框内部的内边距 */
+  box-sizing: border-box;
+  border: 2px solid #ccc; /* 设置边框样式 */
+  border-radius: 10px; /* 设置边框圆角 */
+  font-size: 16px; /* 设置字体大小 */
+  outline: none; /* 移除默认的输入框轮廓效果 */
+}
+
+
+.button{
+  padding: 10px 100px; /* 设置按钮内边距 */
+  font-size: 16px; /* 设置字体大小 */
+  border: 1px solid #3366cc; /* 设置边框样式 */
+  border-radius: 5px; /* 设置边框圆角 */
+  background-color: #3366cc; /* 设置背景颜色 */
+  color: #fff; /* 设置文字颜色 */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* 添加过渡效果 */
+  
+  &:hover {
+    background-color: #265799; /* 设置悬停时的背景颜色 */
+  }
+
+  &:focus {
+    outline: none; /* 移除默认的按钮轮廓效果 */
+    box-shadow: 0 0 5px rgba(51, 102, 204, 0.8); /* 设置获取焦点时的阴影效果 */
+  }
+}
+
+h2{
+  font-size: 30px;
+  color: #010101;
+}
+
+p{
+  font-size: 20px;
+  color: #010101;
+}
+
+span {
+  font-size: 20px; /* 文本大小 */
+  color: #010101; /* 文本颜色 */
+}

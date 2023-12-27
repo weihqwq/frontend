@@ -1,0 +1,81 @@
+/* Test.css */
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.paper {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 800;
+}
+.centered {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+.questionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.question {
+  margin-top: 40px;
+  margin-left: 20px; /* 左侧间距 */
+}
+
+.choices {
+  list-style: none;
+  padding: 0;
+}
+
+.choice {
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.choice input[type="radio"] {
+  margin-right: 8px;
+  height: 15px;
+  width: 15px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+textarea:focus,
+.choice input[type="radio"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

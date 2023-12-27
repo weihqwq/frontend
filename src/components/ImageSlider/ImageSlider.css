@@ -1,0 +1,19 @@
+
+/* Carousel.css */
+.carousel-container {
+  width: 90%; /* 使用百分比 */
+  margin: auto;
+  /* 其他样式 */
+}
+
+
+
+/* ImageSlider.css */
+.slick-slide img {
+  width: 100%; /* 使用百分比，使图片宽度充满轮播项 */
+  height: 100%; /* 使用百分比，使图片高度充满轮播项 */
+  object-fit: cover; /* 保持图片纵横比，裁剪并填充整个容器 */
+  display: block;
+  margin: auto;
+}
+

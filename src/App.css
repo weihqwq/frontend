@@ -1,0 +1,22 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    margin: auto;
+    padding: 0;
+    background-image: url('/public/images/bg.jpg'); /* 替换为你的图片路径 */
+    background-size: cover; /* 使图片覆盖整个背景 */
+    background-position: center; /* 图片在背景中居中 */
+    font-family: 'Arial', sans-serif;
+  }
+  

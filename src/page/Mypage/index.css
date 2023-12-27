@@ -1,0 +1,47 @@
+/* UserProfile.css */
+.user-profile {
+    margin: 20px;
+  }
+  
+  /* UserProfile.css */
+.user-info-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #23e4ba;
+    border-radius: 10px;
+    margin-bottom: 20px; /* 适度调整底边距 */
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-details {
+    text-align: left;
+  }
+  
+  
+  .user-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* 调整字体大小 */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
