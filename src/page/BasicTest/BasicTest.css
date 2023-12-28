@@ -1,4 +1,7 @@
 /* Test.css */
+body {
+  background-image: url("/public/images/bg5.jpg");
+}
 
 .container {
   max-width: 800px;

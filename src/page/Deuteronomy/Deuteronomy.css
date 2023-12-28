@@ -1,32 +1,31 @@
 /* Administrative.css */
 
 .administrative-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* 将垂直对齐方式改为顶部对齐 */
-    height: 100vh;
-    flex-direction: column;
-    background-image: url('/public/images/bg.jpg');
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 将垂直对齐方式改为顶部对齐 */
+  height: 100vh;
+  flex-direction: column;
+  background-image: url("/public/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-
 h1 {
-    margin-top: 20px;
-    /* 添加一些上外边距，可根据需要调整 */
-    margin-bottom: 20px;
-    font-size: 40px;
-    /* 调整字体大小 */
+  margin-top: 20px;
+  /* 添加一些上外边距，可根据需要调整 */
+  margin-bottom: 20px;
+  font-size: 40px;
+  /* 调整字体大小 */
 }
 
 .administrative-button {
-    width: 50%;
-    height: 100px;
-    font-size: 32px;
-    margin-bottom: 20px;
-    border-radius: 15px;
+  width: 50%;
+  height: 100px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 
 /* Add other styles as needed */

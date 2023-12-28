@@ -1,15 +1,19 @@
-.home-container {
-    display: flex;
-    flex-direction: column; /* 垂直布局 */
-    align-items: center; /* 水平居中 */
-  }
-  
-  .carousel-container {
-    width: 100%; /* 使用百分比 */
-    margin-bottom: 20px; /* 调整与下方板块的间距 */
-  }
-  
-  .exam-section-container {
-    width: 80%; /* 调整为百分比，适应不同屏幕 */
-    margin: 0 auto;
-  }
+body {
+  background-color: url("/public/images/bg.jpg") !important;
+}
+
+/* .home-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.carousel-container {
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.exam-section-container {
+  width: 80%;
+  margin: 0 auto;
+}  */

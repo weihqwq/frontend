@@ -1,26 +1,23 @@
 /* Style.css */
 
-
 .form-container {
   width: 50%;
   height: 70%;
   padding: 50px;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   border: 1px solid #bbb9b9;
   border-radius: 10px;
-  margin: auto; /* 设置左右外边距为 auto，实现水平居中 */
+  margin: 50px auto 0; /* 设置上外边距为 50px，左右外边距为 auto，实现水平居中 */
   text-align: center; /* 设置文本居中 */
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .options-container {
   display: flex;
   justify-content: center;
 }
-
 
 .options {
   margin-top: 10px;
@@ -45,8 +42,6 @@
   }
 }
 
-
-
 .input-field {
   width: 50%;
   padding: 10px; /* 设置输入框内部的内边距 */
@@ -57,8 +52,7 @@
   outline: none; /* 移除默认的输入框轮廓效果 */
 }
 
-
-.button{
+.button {
   padding: 10px 100px; /* 设置按钮内边距 */
   font-size: 16px; /* 设置字体大小 */
   border: 1px solid #3366cc; /* 设置边框样式 */
@@ -67,7 +61,7 @@
   color: #fff; /* 设置文字颜色 */
   cursor: pointer;
   transition: background-color 0.3s ease; /* 添加过渡效果 */
-  
+
   &:hover {
     background-color: #265799; /* 设置悬停时的背景颜色 */
   }
@@ -78,12 +72,12 @@
   }
 }
 
-h2{
+h2 {
   font-size: 30px;
   color: #010101;
 }
 
-p{
+p {
   font-size: 20px;
   color: #010101;
 }
